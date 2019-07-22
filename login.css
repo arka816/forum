@@ -1,0 +1,254 @@
+body{
+	text-align: center;
+	font-family: trebuchet ms;
+	margin: 0px;
+	width: 100%;
+	overflow-x: hidden;
+	background: url('index_bg.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+div.head{
+	position: relative;
+	top: 20px;
+	width: 90%;
+	text-align: left;
+	padding: 0px;
+	display: inline-block;
+}
+
+div.form{
+	width: 300px;
+	position: relative;
+	top: 120px;
+	display: inline-block;
+	background-color: #f1f1f1;
+	padding top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	text-align: left;
+	border-radius: 10px;
+}
+input.form{
+	font-size: 15px;
+	padding: 7px 10px 7px 10px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border: none;
+	border-radius: 5px;
+}
+input.submit{
+	margin-top: 15px;
+	border: none;
+	border-radius: 7px;
+	background-color: #7aabfa;
+	padding: 3px 20px 7px 20px;
+	color: white;
+	font-size: 15px;
+}
+input.register{
+	margin-top: 2px;
+	border: none;
+	border-radius: 7px;
+	background-color: #d83230;
+	padding: 5px 20px 7px 20px;
+	color: white;
+	font-size: 15px;
+}
+
+div.header{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #e2e2e2;
+	z-index: 3;
+	text-align: right;
+	padding: 10px;
+}
+
+button#topicAdd{
+	font-size: 20px;
+	background-color: #7aabfa;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	position: relative;
+	left: 10%;
+}
+
+div#editContent{
+	z-index: 3;
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	height: 50%;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	border: 1px solid #2a64c1;
+	text-align: left;
+	padding: 20px;
+	font-size: 20px;
+}
+
+div#addTopic{
+	z-index: 3;
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	height: 43%;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	border: 1px solid #d8d8d8;
+	text-align: left;
+	padding: 20px;
+	font-size: 20px;
+}
+input#topicName{
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+	color: grey;
+}
+textarea#topicContent{
+	font-size: 20px;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+	font-family: inherit;
+	color: grey;
+}
+textarea#editedContent{
+	font-size: 20px;
+	width: 560px;
+	height: 200px;
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+	font-family: inherit;
+	color: grey;
+}
+
+input#submit{
+	border: none;
+	border-radius: 5px;
+	background-color: #2a64c1;
+	color: white;
+	font-size: 20px;
+	padding: 5px 20px 5px 20px;
+}
+button#submit{
+	border: none;
+	border-radius: 5px;
+	background-color: #2a64c1;
+	color: white;
+	font-size: 20px;
+	padding: 5px 20px 5px 20px;
+}
+input#discard{
+	border: none;
+	border-radius: 5px;
+	background-color: #d83230;
+	width: 70px;
+	color: white;
+	font-size: 20px;
+	padding: 5px 20px 5px 20px;
+}
+textarea#commentBox{
+	font-size: 20px;
+	width: 500px;
+	height: 30px;
+	padding: 10px;
+	border: solid 1px #2a64c1;
+	border-radius: 6px;
+	font-family: inherit;
+	color: grey;
+	padding-top: 12px;
+}
+input#post{
+	background-color: #2a64c1;
+	color: white;
+	font-size: 23px;
+	border: none;
+	border-radius: 6px;
+	padding: 7px 10px 12px 10px;
+	position: relative;
+	bottom: 18px;
+}
+
+div#container{
+	position: relative;
+	width: 90%;
+	top: 30px;
+	height: 450px;
+	left: 5%;
+	text-align: left;
+	display: block;
+	overflow-y: auto;
+}
+
+span#accountInfo{
+	display: grid; 
+	background-color: white; 
+	z-index: 4; 
+	position: fixed;
+	right: 100px;
+	top: 120px;
+	box-shadow: 5px 5px 10px grey;
+	display: none;
+}
+span.account{
+	padding: 10px;
+	text-align: left;
+}
+div#triangle{
+	background-color: transparent;
+	height: 0px;
+	width: 0px;
+	border-bottom: 12px solid white;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	position: relative;
+	top: 5px;
+	left: 195px;
+	margin-top: -17px;
+	z-index: 4;
+}
+
+div#delAlert{
+	padding: 15px;
+	text-align: left;
+	position: fixed;
+	top: 45%;
+	left: 35%;
+	width: 30%;
+	height: 10%;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+	box-shadow: 5px 5px 5px grey;
+	display: none;
+}
+button.ans{
+	width: 60px;
+	text-align: center;
+	background-color: #2a64c1;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	padding: 7px 12px;
+	position: relative;
+	top: 30px;
+	left: 270px;
+	margin-left: 15px;
+}
